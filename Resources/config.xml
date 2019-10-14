@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+	<elements>
+		<element type="text" required="true">
+			<name>TitleText</name>
+			<label lang="de">Titel:</label>
+			<label lang="en">Title:</label>
+			<value>Benötigen Sie &lt;strong&gt;Hilfe?&lt;/strong&gt; Chatten Sie mit uns!</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		<element type="color" required="true">
+			<name>BackgroundColor</name>
+			<label lang="de">Hintergrundfarbe:</label>
+			<label lang="en">Background Color:</label>
+			<value>#FC7813</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		<element type="number" required="true">
+			<name>FontSize</name>
+			<label lang="de">Schriftgröße:</label>
+			<label lang="en">Font Size:</label>
+			<value>12</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		<element type="boolean" required="true">
+			<name>FlatDesign</name>
+			<label lang="de">Flaches Design:</label>
+			<label lang="en">Flat Design:</label>
+			<value>true</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>		
+		<element type="text" required="true">
+			<name>Hostname</name>
+			<label lang="de">Zammad Hostname:</label>
+			<label lang="en">Zammad Hostname:</label>
+			<value>support.bauer-group.com</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		<element type="number" required="true">
+			<name>ChatID</name>
+			<label lang="de">Chat ID:</label>
+			<label lang="en">Chat ID:</label>
+			<value>1</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		<!--
+		<element type="text" required="false">
+			<name>ScriptSource</name>
+			<label lang="en">Javascript URL:</label>
+			<label lang="de">Javascript URL:</label>
+			<value>//shared.bauer-group.com/support/chat/v1/chat.min.js</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		<element type="boolean" required="false">
+			<name>CSSAutoload</name>
+			<label lang="de">CSS automatisch Laden:</label>
+			<label lang="en">CSS Autoload:</label>
+			<value>false</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		<element type="text" required="false">
+			<name>CSSSource</name>
+			<label lang="de">CSS Quelle:</label>
+			<label lang="en">CSS Source:</label>
+			<value>//shared.bauer-group.com/support/chat/v1/chat.css</value>
+			<description lang="de"></description>
+			<description lang="en"></description>
+		</element>
+		-->
+	</elements>
+</config>
