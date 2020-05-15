@@ -72,7 +72,7 @@ class BAUERGROUPZammadIntegration extends Plugin
 	
 	public function onFrontendPostDispatch(\Enlight_Controller_ActionEventArgs $args)
 	{
-		$config = $this->container->get('shopware.plugin.cached_config_reader')->getByPluginName($this->getName());
+		$config = $this->container->get('shopware.plugin.cached_config_reader')->getByPluginName($this->getName(), Shopware()->Shop());
 		
 		$controller = $args->get('subject');
 		$view = $controller->View();

@@ -5,8 +5,8 @@
     <label lang="de">BAUER GROUP - Zammad Chat Widget</label>
     <label lang="en">BAUER GROUP - Zammad Chat Widget</label>
 
-    <version>0.0.2</version>
-    <copyright>Copyright © 2018 - 2019 BAUER GROUP - http://www.bauer-group.com/</copyright>
+    <version>0.0.4</version>
+    <copyright>Copyright © 2018 - 2020 BAUER GROUP - http://www.bauer-group.com/</copyright>
     <license>proprietary</license>
     <link>http://go.bauer-group.com/ecommerce</link>
 	<support>http://go.bauer-group.com/support</support>
@@ -15,8 +15,20 @@
 	
     <compatibility minVersion="5.3.0"/>
 
+    <changelog version="0.0.1">
+        <changes lang="de">Erste interne Version</changes>
+        <changes lang="en">First internal Version</changes>
+    </changelog>
     <changelog version="0.0.2">
         <changes lang="de">Erste Version</changes>
         <changes lang="en">First Version</changes>
-    </changelog>    
+    </changelog>
+    <changelog version="0.0.3">
+        <changes lang="de">Chat ID nun pro Storefront konfigurierbar</changes>
+        <changes lang="en">Chat ID can now be configured per storefront</changes>
+    </changelog>
+    <changelog version="0.0.4">
+        <changes lang="de">Zammad CSS und JS Update</changes>
+        <changes lang="en">Zammad CSS and JS Update</changes>
+    </changelog> 	
 </plugin>

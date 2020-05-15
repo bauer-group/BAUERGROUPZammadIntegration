@@ -42,7 +42,7 @@
 			<description lang="de"></description>
 			<description lang="en"></description>
 		</element>
-		<element type="number" required="true">
+		<element type="number" required="true" scope="shop">
 			<name>ChatID</name>
 			<label lang="de">Chat ID:</label>
 			<label lang="en">Chat ID:</label>
