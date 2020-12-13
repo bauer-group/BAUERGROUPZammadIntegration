@@ -1,6 +1,6 @@
 # BAUER GROUP - Zammad Chat Widget
 
-Das Plugin ermöglich die einfache Einbindung des Zammad Chatwidgets für Zammad Helpdesk & Support in ihrem Shop.
+Es handelt sich um ein Shopware 5 Plugin. Das Plugin ermöglich die einfache Einbindung des Zammad Chatwidgets für Zammad Helpdesk & Support in ihrem Shop.
 
 Shopware ab Version 5.3.x wird unterstützt.
 
